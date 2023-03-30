@@ -78,9 +78,9 @@ const App = () => {
                 <div>
                   <ul>
                     <li>Documentation</li>
-                    <div>Application development for the full lifecycle of software</div>
-                    <div>Creating technical specifications</div>
-                    <div>Identify and assess new technologies prior to implementation</div>
+                    <li>Application development for the full lifecycle of software</li>
+                    <li>Creating technical specifications</li>
+                    <li>Identify and assess new technologies prior to implementation</li>
                     <li>Software and Hardware Specification</li>
                     <li>Aid in application architecture</li>
                     <li>Completing system risk, and analysis</li>
@@ -142,6 +142,7 @@ const App = () => {
                 <div className='text-black font-medium text-2xl'>London Metropolitan University</div>
                 <div className='flex  items-center gap-4'>
                   <div className='text-black font-medium text-xl'>BScIT</div>
+                  <div className='font-semibold text-sm'>(3.7 GPA)</div>
                 </div>
               </div>
               <div className='text-lg text-gray-500 font-medium'>2017 - 2019</div>
@@ -149,6 +150,13 @@ const App = () => {
           </div>
         </div>
         {/* Projects */}
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
         <div>
           <div className='flex items-center gap-8'>
             <h4 className='text-4xl text-gray-500 font-medium'>Projects</h4>
@@ -185,6 +193,38 @@ const App = () => {
               </div>
               <div>
                 <div className='text-lg text-gray-500 font-medium'>Spacy, Machine Learning, Python</div>
+              </div>
+            </div>
+
+            <div>
+              <div>
+                <div className='flex'>
+                  <div className='flex-1'>
+                    <div className='text-black font-medium text-2xl'>Car rent payment(WeChatPay, Alipay)</div>
+                    <div className='flex gap-2 items-center'>
+                    </div>
+                    <div>Taxi rental payment system</div>
+                  </div>
+                </div>
+              </div>
+              <div>
+                <div className='text-lg text-gray-500 font-medium'>Rails, Cron, GCP, Webhooks</div>
+              </div>
+            </div>
+
+            <div>
+              <div>
+                <div className='flex'>
+                  <div className='flex-1'>
+                    <div className='text-black font-medium text-2xl'>MTR AEL</div>
+                    <div className='flex gap-2 items-center'>
+                    </div>
+                    <div>AEL Ticket Booking System integrated with Mpay Payment. Payment support for WeChatPay, Alipay, VisaMastercard and American Express. Support for QR Ticket.</div>
+                  </div>
+                </div>
+              </div>
+              <div>
+                <div className='text-lg text-gray-500 font-medium'>Rails, Cron, GCP, Nodejs, Webhooks</div>
               </div>
             </div>
 
@@ -238,125 +278,159 @@ const App = () => {
                 <div className='text-lg text-gray-500 font-medium'>Springboot, GCP, python, Machine Learning, Docker </div>
               </div>
             </div>
+            <div>
+              <div>
+                <div className='flex'>
+                  <div className='flex-1'>
+                    <div className='text-black font-medium text-2xl'>Oyeboss</div>
+                    <div className='flex gap-2 items-center'>
+                    </div>
+                    <div>Stripe Payment Integration</div>
+                  </div>
+                </div>
+              </div>
+              <div>
+                <div className='text-lg text-gray-500 font-medium'>Rails, Stripe, Webhooks</div>
+              </div>
+            </div>
+
+            <div>
+              <div>
+                <div className='flex'>
+                  <div className='flex-1'>
+                    <div className='text-black font-medium text-2xl'>Web Scraper</div>
+                    <div className='flex gap-2 items-center'>
+                    </div>
+                    <div>Built complex web scraper for openrice, uen-sg, wifihk, ypmo etc.</div>
+                  </div>
+                </div>
+              </div>
+              <div>
+                <div className='text-lg text-gray-500 font-medium'>Python (packages used selenium, bs4, pandas, xlsxwriter, etc)</div>
+              </div>
+            </div>
           </div>
         </div>
+        <br />
+        <br />
+      
         {/* Personal Projects */}
-        <div>
-          <div className='flex items-center gap-8'>
-            <h4 className='text-4xl text-gray-500 font-medium'>Personal Projects</h4>
-            <div className='h-[2px] w-full bg-gray-300'></div>
+        <section>
+          <div>
+            <div className='flex items-center gap-8'>
+              <h4 className='text-4xl text-gray-500 font-medium'>Personal Projects</h4>
+              <div className='h-[2px] w-full bg-gray-300'></div>
+            </div>
+            <div className='flex flex-col gap-2'>
+              <div>
+                <div>
+                  <div className='flex'>
+                    <div className='flex-1'>
+                      <div className='text-black font-medium text-2xl'>whysosumi</div>
+                      <div className='flex gap-2 items-center'>
+                        <div><img src={globeIcon} className="h-4 w-4" /></div>
+                        <a href="https://whysosumi.firebaseapp.com" className='font-medium'>https://whysosumi.firebaseapp.com</a>
+                      </div>
+                      <div>Solar System</div>
+                    </div>
+                  </div>
+                </div>
+                <div>
+                  <div className='text-lg text-gray-500 font-medium'>React, Tailwind, CSS, Google Analytics, Firebase</div>
+                </div>
+              </div>
+              <div>
+                <div>
+                  <div className='flex'>
+                    <div className='flex-1'>
+                      <div className='text-black font-medium text-2xl'>kinfh</div>
+                      <div className='flex gap-2 items-center'>
+                        <div><img src={globeIcon} className="h-4 w-4" /></div>
+                        <a href="https://kinfh2022.vercel.app" className='font-medium'>https://kinfh2022.vercel.app</a>
+                      </div>
+                      <div>Application to create food recipe</div>
+                    </div>
+                  </div>
+                </div>
+                <div>
+                  <div className='text-lg text-gray-500 font-medium'>NextJS, Tailwind, Prisma, NextAuth, Vercel</div>
+                </div>
+              </div>
+
+              <div>
+                <div>
+                  <div className='flex'>
+                    <div className='flex-1'>
+                      <div className='text-black font-medium text-2xl'>quoti-news</div>
+                      <div className='flex gap-2 items-center'>
+                        <div><img src={githubIcon} className="h-4 w-4" /></div>
+                        <a href="https://github.com/onlinegrave/QuotiNews.git" className='font-medium'>https://github.com/onlinegrave/QuotiNews.git</a>
+                      </div>
+                      <div>Free News</div>
+                    </div>
+                  </div>
+                </div>
+                <div>
+                  <div className='text-lg text-gray-500 font-medium'>Android, Kotlin, React, NodeJs, Typescript, Javascript, Tailwind</div>
+                </div>
+              </div>
+
+              <div>
+                <div>
+                  <div className='flex'>
+                    <div className='flex-1'>
+                      <div className='text-black font-medium text-2xl'>blog</div>
+                      <div className='flex gap-2 items-center'>
+                        <div><img src={githubIcon} className="h-4 w-4" /></div>
+                        <a href="https://github.com/dambar08/blog.git" className='font-medium'>https://github.com/dambar08/blog.git</a>
+                      </div>
+                      <div>Blog</div>
+                    </div>
+                  </div>
+                </div>
+                <div>
+                  <div className='text-lg text-gray-500 font-medium'>Javascript, Ruby, Markdown, Jekyll</div>
+                </div>
+              </div>
+
+              <div>
+                <div>
+                  <div className='flex'>
+                    <div className='flex-1'>
+                      <div className='text-black font-medium text-2xl'>resume</div>
+                      <div className='flex gap-2 items-center'>
+                        <div><img src={githubIcon} className="h-4 w-4" /></div>
+                        <a href="https://github.com/dambar08/resume.git" className='font-medium'>https://github.com/dambar08/resume.git</a>
+                      </div>
+                      <div>Resume</div>
+                    </div>
+                  </div>
+                </div>
+                <div>
+                  <div className='text-lg text-gray-500 font-medium'>Tailwind, ReactJs, Vite</div>
+                </div>
+              </div>
+
+              <div>
+                <div>
+                  <div className='flex'>
+                    <div className='flex-1'>
+                      <div className='text-black font-medium text-2xl'>insta</div>
+                      <div className='flex gap-2 items-center'>
+                        <div><img src={githubIcon} className="h-4 w-4" /></div>
+                        <a href="https://github.com/dambar08/insta.git" className='font-medium'>https://github.com/dambar08/insta.git</a>
+                      </div>
+                      <div>Front End for Social Media</div>
+                    </div>
+                  </div>
+                </div>
+                <div>
+                  <div className='text-lg text-gray-500 font-medium'>Flutter</div>
+                </div>
+              </div>
+            </div>
           </div>
-          <div className='flex flex-col gap-2'>
-            <div>
-              <div>
-                <div className='flex'>
-                  <div className='flex-1'>
-                    <div className='text-black font-medium text-2xl'>whysosumi</div>
-                    <div className='flex gap-2 items-center'>
-                      <div><img src={globeIcon} className="h-4 w-4" /></div>
-                      <a href="https://whysosumi.firebaseapp.com" className='font-medium'>https://whysosumi.firebaseapp.com</a>
-                    </div>
-                    <div>Solar System</div>
-                  </div>
-                </div>
-              </div>
-              <div>
-                <div className='text-lg text-gray-500 font-medium'>React, Tailwind, CSS, Google Analytics, Firebase</div>
-              </div>
-            </div>
-            <div>
-              <div>
-                <div className='flex'>
-                  <div className='flex-1'>
-                    <div className='text-black font-medium text-2xl'>kinfh</div>
-                    <div className='flex gap-2 items-center'>
-                      <div><img src={globeIcon} className="h-4 w-4" /></div>
-                      <a href="https://kinfh2022.vercel.app" className='font-medium'>https://kinfh2022.vercel.app</a>
-                    </div>
-                    <div>Application to create food recipe</div>
-                  </div>
-                </div>
-              </div>
-              <div>
-                <div className='text-lg text-gray-500 font-medium'>NextJS, Tailwind, Prisma, NextAuth, Vercel</div>
-              </div>
-            </div>
-
-            <div>
-              <div>
-                <div className='flex'>
-                  <div className='flex-1'>
-                    <div className='text-black font-medium text-2xl'>quoti-news</div>
-                    <div className='flex gap-2 items-center'>
-                      <div><img src={githubIcon} className="h-4 w-4" /></div>
-                      <a href="https://github.com/onlinegrave/QuotiNews.git" className='font-medium'>https://github.com/onlinegrave/QuotiNews.git</a>
-                    </div>
-                    <div>Free News</div>
-                  </div>
-                </div>
-              </div>
-              <div>
-                <div className='text-lg text-gray-500 font-medium'>Android, Kotlin, React, NodeJs, Typescript, Javascript, Tailwind</div>
-              </div>
-            </div>
-
-            <div>
-              <div>
-                <div className='flex'>
-                  <div className='flex-1'>
-                    <div className='text-black font-medium text-2xl'>blog</div>
-                    <div className='flex gap-2 items-center'>
-                      <div><img src={githubIcon} className="h-4 w-4" /></div>
-                      <a href="https://github.com/dambar08/blog.git" className='font-medium'>https://github.com/dambar08/blog.git</a>
-                    </div>
-                    <div>Blog</div>
-                  </div>
-                </div>
-              </div>
-              <div>
-                <div className='text-lg text-gray-500 font-medium'>Javascript, Ruby, Markdown, Jekyll</div>
-              </div>
-            </div>
-
-            <div>
-              <div>
-                <div className='flex'>
-                  <div className='flex-1'>
-                    <div className='text-black font-medium text-2xl'>resume</div>
-                    <div className='flex gap-2 items-center'>
-                      <div><img src={githubIcon} className="h-4 w-4" /></div>
-                      <a href="https://github.com/dambar08/resume.git" className='font-medium'>https://github.com/dambar08/resume.git</a>
-                    </div>
-                    <div>Resume</div>
-                  </div>
-                </div>
-              </div>
-              <div>
-                <div className='text-lg text-gray-500 font-medium'>Tailwind, ReactJs, Vite</div>
-              </div>
-            </div>
-
-            <div>
-              <div>
-                <div className='flex'>
-                  <div className='flex-1'>
-                    <div className='text-black font-medium text-2xl'>insta</div>
-                    <div className='flex gap-2 items-center'>
-                      <div><img src={githubIcon} className="h-4 w-4" /></div>
-                      <a href="https://github.com/dambar08/insta.git" className='font-medium'>https://github.com/dambar08/insta.git</a>
-                    </div>
-                    <div>Front End for Social Media</div>
-                  </div>
-                </div>
-              </div>
-              <div>
-                <div className='text-lg text-gray-500 font-medium'>Flutter</div>
-              </div>
-            </div>
-
-
-          </div>
-        </div>
+        </section>
       </div>
     </div>
   )
