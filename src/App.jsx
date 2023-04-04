@@ -24,7 +24,8 @@ const App = () => {
                 </div>
                 <div>
                   <ul>
-                    <li className='flex items-center gap-1'><div>Porfolio: </div> <a href="https://github.com/dambar08/resume.git">https://github.com/dambar08/resume.git</a></li>
+                    <li className='flex items-center gap-1'><div>Portfolio: </div> <a href="https://github.com/dambar08/resume.git">Resume (https://github.com/dambar08/resume.git)</a></li>
+                    <li className='flex items-center gap-1'><div>Blog: </div> <a href="https://the-boring-blog.netlify.app">The boring blog (https://the-boring-blog.netlify.app)</a></li>
                   </ul>
                 </div>
                 <div>Change is the only constant</div>
@@ -397,6 +398,42 @@ const App = () => {
                 <div>
                   <div className='flex'>
                     <div className='flex-1'>
+                      <div className='text-black font-medium text-2xl'>the-boring-blog</div>
+                      <div className='flex gap-2 items-center'>
+                        <div><img src={globeIcon} className="h-4 w-4" /></div>
+                        <a href="https://the-boring-blog.netlify.app" className='font-medium'>https://the-boring-blog.netlify.app</a>
+                      </div>
+                      <div>Blog</div>
+                    </div>
+                  </div>
+                </div>
+                <div>
+                  <div className='text-lg text-gray-500 font-medium'>Javascript, Nextjs, Tailwind, Typescript</div>
+                </div>
+              </div>
+
+              <div>
+                <div>
+                  <div className='flex'>
+                    <div className='flex-1'>
+                      <div className='text-black font-medium text-2xl'>zh-hans-hant</div>
+                      <div className='flex gap-2 items-center'>
+                        <div><img src={globeIcon} className="h-4 w-4" /></div>
+                        <a href="https://the-boring-blog.netlify.app" className='font-medium'>https://zh-hans-hant.netlify.app</a>
+                      </div>
+                      <div>Learn to write japanese and chinese</div>
+                    </div>
+                  </div>
+                </div>
+                <div>
+                  <div className='text-lg text-gray-500 font-medium'>Javascript, Nextjs, Tailwind, Typescript</div>
+                </div>
+              </div>
+
+              <div>
+                <div>
+                  <div className='flex'>
+                    <div className='flex-1'>
                       <div className='text-black font-medium text-2xl'>resume</div>
                       <div className='flex gap-2 items-center'>
                         <div><img src={githubIcon} className="h-4 w-4" /></div>
@@ -425,7 +462,7 @@ const App = () => {
                   </div>
                 </div>
                 <div>
-                  <div className='text-lg text-gray-500 font-medium'>Flutter</div>
+                  <div className='text-lg text-gray-500 font-medium'>Flutter, Dart</div>
                 </div>
               </div>
             </div>
